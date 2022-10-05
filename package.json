@@ -1,0 +1,15 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "This is a nodeJs course to go over some of the nodeJS concepts.",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Govea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderAlatorreGovea/node-js/issues"
+  },
+  "homepage": "https://github.com/AlexanderAlatorreGovea/node-js#readme"
+}

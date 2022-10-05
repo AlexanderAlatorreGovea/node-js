@@ -4,6 +4,8 @@
 // run: node hello.js explore
 // const mission = process.argv[2]
 
+const { fs } = require("fs")
+
 
 // if (mission === "learn") {
 //   console.log("time to write some node code");
@@ -17,3 +19,5 @@ console.log(module)
 //console.log(__dirname)
 
 //console.log(global)
+
+// nodejs apis
