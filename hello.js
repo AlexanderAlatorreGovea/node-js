@@ -1,12 +1,13 @@
 //const mission = "learn";
-// run node hello.js and you will get the same as the 
+// run node hello.js and you will get the same as the
 // second console.log
 // run: node hello.js explore
 // const mission = process.argv[2]
 
-const { fs } = require("fs")
+const { fs } = require("fs");
+const { parallel } = require("asynckit");
 
-
+console.log(parallel)
 // if (mission === "learn") {
 //   console.log("time to write some node code");
 // } else {
@@ -21,4 +22,4 @@ const { fs } = require("fs")
 //console.log(global)
 
 // nodejs apis
-console.log('hello from hello.js')
+console.log("hello from hello.js");
