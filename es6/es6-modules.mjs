@@ -1,3 +1,5 @@
 import { send } from "./request.mjs";
 
-send()
+send();
+
+module.exports = send;
