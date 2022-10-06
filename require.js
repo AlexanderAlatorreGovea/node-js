@@ -1,6 +1,6 @@
-const { request } = require("https");
+const { request, get } = require("https");
 
-const request = request("https://www.google.com", (res, req) => {
+get("https://www.google.com", (res, req) => {
   res.on("data", (chunk) => {
     console.log(`Data chunk ${chunk}`);
   });
@@ -11,4 +11,4 @@ const request = request("https://www.google.com", (res, req) => {
 });
 
 // triggers the request to be sent
-request.end();
+//request.end();
